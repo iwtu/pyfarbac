@@ -1,6 +1,7 @@
 from .rbac import RBACBase
 
 class OutputFoo(RBACBase):
+    _path = __name__
     f1: int = None
     f2: str = None
 
